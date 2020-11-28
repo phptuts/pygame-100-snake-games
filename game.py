@@ -24,7 +24,6 @@ BLUE = (0, 0, 255)
 
 orange = (255,100,10)
 yellow = (255,255,0)
-blue_green = (0,255,170)
 marroon = (115,0,0)
 lime = (180,255,100)
 pink = (255,100,180)
@@ -32,7 +31,6 @@ purple = (240,0,255)
 gray = (127,127,127)
 magenta = (255,0,230)
 brown = (100,40,0)
-forest_green = (0,50,0)
 navy_blue = (0,0,100)
 rust = (210,150,75)
 dandilion_yellow = (255,200,0)
@@ -43,7 +41,7 @@ dark_gray = (50,50,50)
 tan = (230,220,170)
 coffee_brown =(200,190,140)
 moon_glow = (235, 245, 255)
-BG_COLORS = [BLACK, BLUE, WHITE, blue_green, orange, yellow, marroon, lime, pink, purple, gray, magenta, brown, forest_green, navy_blue, rust, dandilion_yellow, highlighter, sky_blue, light_gray, dark_gray, tan, coffee_brown, moon_glow]
+BG_COLORS = [BLACK, BLUE, WHITE, orange, yellow, marroon, lime, pink, purple, gray, magenta, brown, navy_blue, rust, dandilion_yellow, highlighter, sky_blue, light_gray, dark_gray, tan, coffee_brown, moon_glow]
 
 
 class Food(pygame.sprite.Sprite):
