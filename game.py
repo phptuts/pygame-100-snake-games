@@ -66,7 +66,6 @@ class Food(pygame.sprite.Sprite):
         self.rect.topleft = self.get_new_position()
 
     def draw(self, win):
-        print(self.rect.topleft, self.offset_y, self.offset_x)
         win.blit(self.image, self.rect.topleft)
 
 
